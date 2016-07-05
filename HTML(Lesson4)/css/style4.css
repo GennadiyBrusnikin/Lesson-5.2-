@@ -1,0 +1,383 @@
+*{
+
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneue-thin-webfont.eot');
+    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneuecyr-bold-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneuecyr-bold-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-bold-webfont.woff') format('woff'),
+         url('../fonts/helveticaneuecyr-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+body{ 
+}
+
+.header{
+
+  height: 36px;
+  background: #085393;
+
+} 
+
+.header ul{
+
+  height: 36px;
+  text-align: right;
+
+}
+
+.header ul li{
+
+  list-style: none;
+  display: inline-block;
+  height: 36px;
+  vertical-align: middle;
+  line-height: 36px;
+  text-align: center;
+  
+}
+
+.header ul li a{
+
+  text-decoration: none;
+  color: #5cb0e8;
+
+} 
+
+.menu6 a{
+
+  background-image: url(../img/Flag.png);
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  color: white;
+
+}
+
+.header ul li.menu1:hover{
+
+  
+  background: linear-gradient(to top, #2e7ac4, #4eacda);
+  line-height: 36px;
+  height: 36px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: 3s;
+}
+
+.header ul li.menu2:hover{
+
+  
+  background: linear-gradient(to top, #2e7ac4, #4eacda);
+  line-height: 36px;
+  height: 36px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: 3s;
+}
+
+.header ul li.menu3:hover{
+
+  
+  background: linear-gradient(to top, #2e7ac4, #4eacda);
+  line-height: 36px;
+  height: 36px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: 3s;
+}
+
+.header ul li.menu4:hover{
+
+  
+  background: linear-gradient(to top, #2e7ac4, #4eacda);
+  line-height: 36px;
+  height: 36px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: 3s;
+}
+
+.header ul li.menu5:hover{
+
+  
+  background: linear-gradient(to top, #2e7ac4, #4eacda);
+  line-height: 36px;
+  height: 36px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: 3s;
+}
+
+.header ul li.menu1{
+
+  width: 123px;
+
+}
+
+.header ul li.menu2{
+
+  width: 80px;
+
+} 
+
+.header ul li.menu3{
+
+  width: 80px;
+
+} 
+
+.header ul li.menu4{
+
+  width: 80px;
+
+} 
+
+.header ul li.menu5{
+
+  width: 80px;
+
+} 
+
+.header ul li.menu6{
+
+  width: 199px;
+  border-left: 1px solid #4eacda;
+  
+} 
+.header ul li.menu6 a{
+
+  color: white;
+}
+
+.header ul li.menu7{
+
+  width: 200px;
+  margin-right: 30px;
+} 
+
+.menu7 a:hover{
+
+  text-decoration: underline;
+
+ } 
+
+.header ul li a:hover{
+  
+  color: white;
+  transition: 2s;
+
+}
+
+.fon{
+  
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/Foto.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 1064px;
+ 
+}
+
+.form {
+  
+  background: rgba(0, 0, 0, 0.47);
+  width: 560px;
+  height: 62px;
+  position: absolute;
+  top: 305px;
+  left: 373px;
+
+
+}
+.podform {
+   text-align: center;
+   font-weight: bold;
+   font-size: 24px;
+   color: white;
+   padding: 17px;
+}
+
+.form1{
+
+  width: 560px;
+  height: 546px;
+  background: rgba(0, 0, 0, 0.47); 
+  position: absolute;
+  top: 370px;
+  left: 372px;
+   
+}
+
+/*.form1 button{
+
+  margin-left: 150px;
+  margin-top: 36px;
+  height: 36px;
+  width: 277px;
+}
+
+.fb {
+
+  list-style: none;
+
+}
+
+.fb li{
+
+  display: inline-block;
+}
+
+.fb1{
+
+  margin-right: 96px;
+}*/
+
+
+.input {
+
+  position: relative;
+  height: 551px;
+  color:white;
+
+}
+
+.input .item{
+
+  position: absolute;
+  left: 145px;
+  top: 35px;
+
+}
+
+.item li{
+
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 9px;
+
+}
+
+.item{
+
+  height: 35px;
+  width: 275px;
+  background: linear-gradient(to top, #2d4176, #3d5698);
+  font-size: 15px;
+  border-radius: 4px;
+  border-top: 1px solid #778bac;
+
+}
+
+.item .item1{
+
+  display:  block;
+  padding: 2px 9px;
+  border-right: 1px solid #1d3c75;
+  width: 26px;
+  float: left;
+  height: 31px;
+
+}
+
+.item .item2{
+
+  display: inline ;
+  width: 225px;
+  text-align: center;
+  padding: 0 12px 0 25px;
+
+}
+
+.ou {
+
+  position: absolute;
+  padding: 30px 0;
+  left: 145px;
+  top: 71px;
+  width: 275px;
+  height: 12px;
+
+}
+
+.input1 {
+
+  position: absolute;
+  left: 145px;
+  top: 145px;
+  width: 275px;
+  height: 72px;
+
+}
+ .box,.box1,.box2,.box3,.box4{
+
+  font-family: "Helvetica Neue", tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  width: 255px;
+  height: 33px;
+  background-color: black;
+  margin-bottom: 18px;
+  border-width: inherit;
+  border-bottom: 1px solid #4a4a49;
+  color: white;
+  padding-left: 20px;
+
+}
+
+.regforma .ho:hover{
+
+  background-color: #1b5288;
+  box-shadow: 0px 0px 15px 3px rgba(104,155,204,1);
+  transition: 2s;
+}
+
+.regforma label{
+
+  padding-left: 13px;
+
+}
+
+.box6{
+
+  display: block;
+  margin: 20px 60px;
+  width: 150px;
+  height:  35px;
+  background: linear-gradient(to top, #2e7ac4, #4faddb);
+  border-width: inherit;
+  color: white;
+  border-radius: 4px;
+  font-size: 14px;
+
+}
+
+.footer {
+  position: absolute;
+  bottom: 30px;
+  left: 135px;
+  color: white;
+  font-size: 11px;
+  text-align: center;
+
+}
