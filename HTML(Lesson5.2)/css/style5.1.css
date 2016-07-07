@@ -1,0 +1,26 @@
+*{
+
+	margin: 0;
+	padding: 0;
+	
+}
+
+div{
+
+}
+
+table{
+
+	margin: 0 auto;
+	border-collapse: collapse;
+	width: 600px;
+	height: 600px;
+	
+}
+
+td{
+
+	border: 15px solid black;
+	/*padding: 50px;*/
+}
+
