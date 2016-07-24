@@ -217,24 +217,22 @@ body{
   height: 1064px;
   background-size: cover;
   background-position: center center;
-
-  
-
+  position: relative;
 }
 
 .form {
-
   background: rgba(0, 0, 0, 0.36);
-  width: 560px;
+  width: 563px;
   height: 62px;
   position: absolute;
-  top: 200px;
+  top: -571px;
   right: 0;
   left: 0;
   bottom: 0;
   margin:auto;
- 
+
 }
+
 .podform {
  
    text-align: center;
@@ -247,22 +245,22 @@ body{
 
 .form1{
   
-  width: 560px;
+  width: 563px;
   height: 546px;
-  background: rgba(0, 0, 0, 0.47); 
-  position: absolute;
-  top: 815px;
+  background: rgba(0, 0, 0, 0.47);
+  top: 42px;
   right: 0;
   left: 0;
   bottom: 0;
   margin:auto;
+  position: absolute;
    
 }
 
 .input {
 
-  position: relative;
   height: 551px;
+  width: 563px;
   color:white;
 
 }
@@ -299,7 +297,7 @@ body{
   color: white;
   font-weight: bold;
   text-align: center;
-  padding: 9px;
+  padding: 8px;
 
 }
 
@@ -322,9 +320,10 @@ body{
   display: inline ;
   width: 225px;
   text-align: center;
-  padding: 0 12px 0 25px;
+  padding: -1px 12px 0 25px;
 
 }
+
 
 .ou {
 
@@ -391,10 +390,12 @@ body{
 
 .footer {
   position: absolute;
-  bottom: 30px;
-  left: 135px;
+  bottom: 16px;
+  /*left: 130px;*/
   color: white;
   font-size: 11px;
+  width: 563px;
+  margin: 0 auto;
   text-align: center;
 
 }
